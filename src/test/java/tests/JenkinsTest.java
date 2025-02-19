@@ -8,7 +8,7 @@ public class JenkinsTest {
 
 	@Test
 	void Test1(){
-		assertTrue(true);
+		assertTrue(false);
 	}
 	@Test
 	void Test2(){
@@ -46,10 +46,3 @@ public class JenkinsTest {
 	}
 
 }
-echo "# Jenkins_153" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/Khasizada/Jenkins_153.git
-git push -u origin main
